@@ -10193,7 +10193,7 @@ html {
   width: auto; }
 
 .hb-header-logo {
-  background: #712cf9; }
+  background: #ffffff; }
 
 @media (min-width: 992px) {
   .hb-header-submenus[data-columns="2"] {
@@ -11008,3 +11008,5 @@ a img {
 /*! purgecss start ignore */
 /*! PUT YOU STYLE HERE TO AVOID GETTING REMOVING BY PURGECSS. */
 /*! purgecss end ignore */
+body > header > nav > div > a > img {
+  border-radius: 50%; }

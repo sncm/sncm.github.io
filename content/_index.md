@@ -1,11 +1,11 @@
 ---
-title: HB Theme Template
-# menu:
-#   main:
-#     name: Home
-#     weight: 1
-#     params:
-#       icon:
-#         vendor: bs
-#         name: house
+title: 陕西彩美电子
+menu:
+  main:
+    name: 主页
+    weight: 1
+    params:
+      icon:
+        vendor: bs
+        name: house
 ---

@@ -1,46 +1,51 @@
-description: The starter theme template of HB (Hugo Bootstrap) Framework.
+description: "欢迎来到彩美官网，我们专注于提供高质量的音视频设备和服务。我们主营激光高清投影机、LED全彩显示屏等电子设备，致力于为您构建理想视听体验。我们还提供无线投屏系统、教学系统会议系统、家庭影院解决方案等，以及投影机维修和灯泡等配套服务。我们专业研发、销售软硬件产品，并承建网络建设和维护项目。监控设备、投影设备等其他相关产品也是我们的主营业务。欢迎您来体验！"
 
 hb:
   # override SASS variables, please replace the dash with underline, e.g. `list-group-color` should be `list_group_color`.
   # styles:
   #   primary: '#6610f2'
-  
+
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
-  
+
   full_width: false # when true, the layout takes full width globally.
 
   header:
-    brand: HB # the brand name, leave it empty to use site's title.
-    logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
+    brand: 陕西彩美电子 # the brand name, leave it empty to use site's title.
+    logo_bg: "#ffffff" # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-      github: hbstack
-      # twitter: razonyang
+      github: sncm
+      bilibili: https://space.bilibili.com/1623070437
+      email: mailto:puningjun@sxcmdz.cn
+      tel: 4006122568
       rss: true
-      mastodon: https://techhub.social/@hbstack
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
       _color: true # when false, remove the color of social icons.
-      github: hbstack
-      twitter: razonyang
+      github: sncm
+      bilibili: https://space.bilibili.com/1623070437
+      email: mailto:puningjun@sxcmdz.cn
+      tel: 4006122568
       rss: true
-      mastodon: https://techhub.social/@hbstack
   terms:
     # the paginate for categories, tags, series list pages.
     paginate: 12
   blog:
     sidebar:
       profile:
-        # title: Profile title other than site title.
-        # description: Profile description other than site description.
-        company: COMPANY
-        location: Earth
+        icon: images/profile.png
+        title: 蒲宁军
+        description: 销售经理及技术支持
+        company: 陕西彩美
+        location: 陕西
         socials:
-          github: hbstack
-          mastodon: https://techhub.social/@hbstack
-          rss: true
+          github: pu-007
+          tel: 18602924378
+          email: mailto:puningjun@sxcmdz.cn
+          wechat: wechat
+          tencentqq: "https://qm.qq.com/cgi-bin/qm/qr?k=MlCmF3zjHDCGvKZb5oSwac0t6kUAIzlU"
       posts:
         recent_count: 5 # the number of recent posts.
         featured_count: 5 # the number of featured posts.
@@ -78,15 +83,15 @@ hb:
 
 seo:
   favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
-    icon: images/logo.png # use logo as favicon.
+    icon: images/logo.png
 
 # PWA settings, see https://hugomods.com/en/docs/pwa/#site-parameters.
 pwa:
   debug: false
   manifest:
-    background_color: '#712cf9'
-    theme_color: '#712cf9'
-    short_name: 'HB Theme'
+    background_color: "#712cf9"
+    theme_color: "#712cf9"
+    short_name: "HB Theme"
 
 # see https://hugomods.com/search/configurations/.
 search:

@@ -1,5 +1,5 @@
 ---
-title: Gallery
+title: 产品图库
 menu:
   main:
     weight: 2
