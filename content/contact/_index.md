@@ -5,7 +5,7 @@ layout: landing
 draft: false
 menu:
   main:
-    weight: 1
+    weight: 2
     params:
       icon:
         vendor: bs
