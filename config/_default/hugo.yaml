@@ -12,9 +12,6 @@ title_sections: true # when false, remove the sections from the title.
 title_sections_depth: 0 # the depth of sections on the title.
 title_sections_depth_dir: end # when start, the depth is counting from the root sections.
 
-permalinks:
-  blog: /blog/:year/:month/:title
-
 outputs:
   home:
     - HTML
@@ -24,10 +21,8 @@ outputs:
     - WebAppManifest # required by PWA module to make your site installable.
 
 taxonomies:
-  authors: authors # multiple authors.
-  tags: tags
   categories: categories
-  series: series
+  tags: tags
 
 build:
   writeStats: true # required by PurgeCSS.
